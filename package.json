@@ -1,0 +1,67 @@
+{
+  "name": "zuly_back",
+  "version": "0.1.92",
+  "description": "Back-office webapp for Zuly (my.zuly.it)",
+  "author": "Copyright (C) 2020 simevo s.r.l.",
+  "license": "All rights reserved",
+  "private": true,
+  "main": "index.html",
+  "repository": "https://phabricator.simevo.com/source/zuly_back/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2",
+    "bootstrap-icons": "^1.0.0",
+    "core-js": "^3.6.5",
+    "fontsource-varela": "^3.0.9",
+    "fontsource-varela-round": "^3.0.9",
+    "leaflet": "^1.6.0",
+    "make-lint": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "socket.io": "^2.3.0",
+    "tiptap": "^1.30.0",
+    "tiptap-extensions": "^1.33.2",
+    "vee-validate": "^3.4.3",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.8",
+    "vue-toast-notification": "^0.5.4",
+    "webrtc-adapter": "^7.7.0"
+  },
+  "resolutions": {
+    "prosemirror-model": "1.9.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-plugin-router": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
